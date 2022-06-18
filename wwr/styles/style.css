@@ -184,9 +184,52 @@ main {
     opacity: .6;
     transform: scale(1.1);
 }
-.logo img {
-    size: 60%;
+.logo {
+    width: 80px;
 }
+.salmon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.salmonmap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.desolation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .desolationmap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .grand {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .grandmap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
