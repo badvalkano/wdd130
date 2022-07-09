@@ -61,7 +61,7 @@ h2 {
     opacity: 1;
   }
   
-  .text {
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -72,7 +72,7 @@ h2 {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -84,8 +84,36 @@ h2 {
     transition: .5s ease;
     background-color: #008CBA;
   }
-  .container {
+.container {
     position: relative;
     width: 100%;
   }
-  
+.card-img {
+    max-width: 100px;
+    grid-column: 1/2;
+      border: 10px solid #b8cdf8;
+      box-shadow: 5px 5px 10px #6f7364;
+}
+.pamphlet-img {
+    max-width: 100px;
+    grid-column: 2/3;
+    border: 10px solid #b8cdf8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.poster-img {
+    max-width: 100px;
+    grid-column: 3/4;
+    border: 10px solid #b8cdf8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.web-img {
+    max-width: 100px;
+    grid-column: 4/5;
+    border: 10px solid #b8cdf8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+  .recentprojects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 10%;
+}
