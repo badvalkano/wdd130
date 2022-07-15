@@ -1,0 +1,113 @@
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+}
+body {
+    display: grid;
+    background-color: #b8cdf8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #5DB6F6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 200px auto;
+    text-align: center;
+}
+footer {
+    background-color:#5DB6F6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    justify-content: space-around;
+ }
+ .logo {
+    width: 120px;
+}
+.send-img {
+    max-width: 300px;
+    border: 10px solid #b8cdf8;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 4/5;
+}
+.sketch-img {
+    max-width: 300px;
+    border: 10px solid #b8cdf8;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 4/5;
+}
+.skip-img {
+    max-width: 300px;
+    border: 10px solid #b8cdf8;
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 4/5;
+}
+nav a:hover {
+    background-color: #c9f8ec;
+    color: #ffffff
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  .containertwo {
+    position: relative;
+    width: 100%;
+  }
+  .containerthree {
+    position: relative;
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .containertwo:hover .overlay {
+    opacity: 1;
+  }
+  .containerthree:hover .overlay {
+    opacity: 1;
+  }
